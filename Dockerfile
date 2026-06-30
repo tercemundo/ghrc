@@ -1,0 +1,5 @@
+FROM alpine:latest
+
+RUN apk add --no-cache python3
+
+CMD ["python3", "-c", "print('Hola Mundo')"]
